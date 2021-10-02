@@ -11,6 +11,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.weather.api.weather_api;
+import com.example.weather.model.Weather;
+import com.example.weather.model.Weather_;
+import com.example.weather.model.Wind;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -131,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Description.setText(description);
 
-                Main main = weather.getMain();
+                com.example.weather.model.Main main = weather.getMain();
 
                 temp = main.getTemp();
                 feels_like = main.getFeelsLike();
