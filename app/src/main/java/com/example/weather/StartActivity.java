@@ -7,9 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-public class Start extends AppCompatActivity {
+public class StartActivity extends AppCompatActivity {
 
     EditText city;
 
@@ -24,7 +23,7 @@ public class Start extends AppCompatActivity {
         go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Start.this, MainActivity.class);
+                Intent intent=new Intent(StartActivity.this, MainActivity.class);
                 intent.putExtra("City",city.getText().toString().trim());
                 startActivity(intent);
 
