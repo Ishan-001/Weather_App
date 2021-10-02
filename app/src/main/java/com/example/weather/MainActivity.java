@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.weather.api.weather_api;
+import com.example.weather.api.WeatherApi;
 import com.example.weather.model.Weather;
 import com.example.weather.model.Weather_;
 import com.example.weather.model.Wind;
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        final weather_api weatherApi = retrofit.create(weather_api.class);
+        final WeatherApi weatherApi = retrofit.create(WeatherApi.class);
 
         Call<Weather> call = weatherApi.getWeather(city_name, key);
         call.enqueue(new Callback<Weather>() {
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                 City.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent1=new Intent(MainActivity.this, Start.class);
+                        Intent intent1=new Intent(MainActivity.this, StartActivity.class);
                         startActivity(intent1);
                     }
                 });
