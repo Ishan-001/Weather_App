@@ -34,7 +34,7 @@ Run the following commands from the root of the project directory:
 
 `git push origin <my-amazing-feature>`
 
-Open your forked repo in your browser and then raise a PR to the `master` branch of this repository!
+Open your forked repo into your browser and then raise a PR to the `master` branch of this repository!
 
 ## License
 This project is licensed under MIT.
