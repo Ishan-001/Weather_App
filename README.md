@@ -9,7 +9,7 @@ Support open source software by participating in [Hacktoberfest](https://hacktob
 
 Kindly consider leaving a :star: if you like this repository.
 
-## Getting Started
+## Getting Started:
 * Fork it.
 
 * Clone your forked repo and move inside it:
