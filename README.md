@@ -7,7 +7,7 @@ Support open source software by participating in [Hacktoberfest](https://hacktob
 
 > Please check all issues labelled as `hacktoberfest` to start contributing!
 
-Kindly consider leaving a :star: if you like the repository.
+Kindly consider leaving a :star: if you like this repository.
 
 ## Getting Started
 * Fork it.
