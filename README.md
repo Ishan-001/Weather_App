@@ -1,6 +1,6 @@
 <p align="center"><img width="40%" src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg"/></p>
 
-# Hacktoberfest 2021 :heart:
+# Hacktoberfest 2022 :heart:
 This is a simple Android Weather application built using Java. Users can enter a place and get the basic weather details!
 
 Support open source software by participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com) and get goodies and a free t-shirt! :yellow_heart:
