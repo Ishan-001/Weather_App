@@ -5,7 +5,7 @@ This is the simple Android Weather application built using Java. Users can enter
 
 Support open source software by participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com) and get goodies and a free t-shirt! :yellow_heart:
 
-> Please check all issues labelled as `hacktoberfest` to start contributing!
+> Please check all the issues labelled as `hacktoberfest` to start contributing!
 
 Kindly consider leaving a :star: if you like this repository.
 
